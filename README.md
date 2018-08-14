@@ -2,6 +2,10 @@
 
 This plugin interfaces Indigo to Sesame locks made by [Candy House](https://candyhouse.co/).
 
+## Requirements
+
+You'll need at least one [Sesame Lock](https://candyhouse.co/collections/frontpage/products/sesame) as well as a [Wi-Fi Access Point](https://candyhouse.co/collections/frontpage/products/wi-fi-access-point). 
+
 ## Installation
 
 1. Click on the "Clone or download" button and then "Download Zip".
