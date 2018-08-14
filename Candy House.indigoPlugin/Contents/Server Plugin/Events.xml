@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Events>
+
+    <Event id="eventFailedToChange" deviceFilter="self.sesame">
+        <Name>Sesame Failed to Lock or Unlock</Name>
+    </Event> 
+
+</Events>

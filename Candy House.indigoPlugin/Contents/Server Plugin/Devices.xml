@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Devices>
+	<Device type="relay" id="sesame">
+		<Name>Sesame Lock</Name>
+		<ConfigUI>			
+			<Field id="label_sesame" type="label" fontColor="darkgray" fontSize="small" alignWithControl="true">
+			<Label>Below is a list of the Sesame locks in your Candy House account.  If locks are missing make sure the plugin successfully logged into your account and the locks are enabled for API access.</Label>
+			</Field>
+			<Field id="sesameid" type="menu">
+				<Label>Sesame:</Label>
+				<List class="self" method="getSesameList"/>
+			</Field>
+
+			<Field id="SupportsBatteryLevel" type="checkbox" defaultValue="true"  hidden="true" ></Field>			
+		</ConfigUI>	
+		<UiDisplayStateId>lockstate</UiDisplayStateId>
+		<States>
+			<State id="lockstate">
+				<ValueType>
+					<List>
+						<Option value="locked">Locked</Option>
+						<Option value="unlocked">Unlocked</Option>
+					</List>
+				</ValueType>
+				<TriggerLabel>Sesame Locked State Changed</TriggerLabel>
+				<TriggerLabelPrefix>Sesame</TriggerLabelPrefix>
+				<ControlPageLabel>Locked State</ControlPageLabel>
+				<ControlPageLabelPrefix>Locked State is</ControlPageLabelPrefix>
+			</State>
+		</States>	
+	</Device>
+</Devices>
