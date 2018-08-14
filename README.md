@@ -4,7 +4,9 @@ This plugin interfaces Indigo to Candy House Sesame locks.
 
 ## Installation
 
-Click on the "Clone or download" button and then "Download Zip" and it will download the plugin and readme file to a folder named "candyhouse-lock-master" in your Downloads directory. Once it's downloaded just open that folder and double-click on the "Candy House.indigoPlugin" file to have the client install and enable it for you.
+1. Click on the "Clone or download" button and then "Download Zip".
+2. Locate the file or folder named "candyhouse-lock-master" in your Downloads directory. 
+3. Open the folder and double-click on the "Candy House.indigoPlugin" file to have Indigo install and enable it for you.
 
 ## Configuration
 
