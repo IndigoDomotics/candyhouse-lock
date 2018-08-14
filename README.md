@@ -1,6 +1,6 @@
 # Sesame Lock Plugin
 
-This plugin interfaces Indigo to Candy House Sesame locks.
+This plugin interfaces Indigo to Sesame locks made by [Candy House](https://candyhouse.co/).
 
 ## Installation
 
